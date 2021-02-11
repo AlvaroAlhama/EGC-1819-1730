@@ -4,7 +4,7 @@ import sys
 from mixnet.mixcrypt import MixCrypt
 from mixnet.mixcrypt import ElGamal
 
-
+'''
 SK = sys.argv[1]
 MSG = sys.argv[2]
 
@@ -15,3 +15,4 @@ k = MixCrypt(bits=256)
 k.k = ElGamal.construct((p, g, y, x))
 
 print(k.decrypt((a, b)))
+'''
