@@ -30,7 +30,7 @@ APIS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'decide',
+        'NAME': 'prueba',
         'USER': 'decide',
         'PASSWORD': 'decide',
         'HOST': 'localhost',
@@ -40,4 +40,3 @@ DATABASES = {
 
 # number of bits for the key, all auths should use the same number of bits
 KEYBITS = 256
-
